@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #003B46;
+</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>registered users</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="5">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+background-color: #66A5AD;</string>
+      </property>
+      <property name="text">
+       <string>-&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout"/>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QTextBrowser" name="textBrowser_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #07575B;
+
+font: 11pt &quot;Segoe UI&quot;;
+color: #C4DFE6;
+
+</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4" rowspan="2">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(175, 0, 0);
+border-bottom-color: rgb(255, 0, 0);
+background-color: #C4DFE6;
+color: rgb(0, 0, 0);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" colspan="4">
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #07575B;
+font: 11pt ;
+color: #C4DFE6;
+border: 1px solid &quot;black&quot;;
+border-radius: 20;
+
+
+</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
